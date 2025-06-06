@@ -1,6 +1,6 @@
 /*************************************************
 
-Small sample to dynamically updating sensor variables using an App Script
+Small sample to dynamically update sensor variables using an App Script
 
 Sensor -> request(sends POST)
 Sensor <- response(Appscript sends a ContentService object)
