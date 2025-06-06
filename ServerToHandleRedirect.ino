@@ -4,6 +4,8 @@ Small sample to dynamically updating sensor variables using an App Script
 
 Sensor -> request(sends POST)
 Sensor <- response(Appscript sends a ContentService object)
+Sensor -> handle redirect and request(Sends GET)
+Sernsor <- response(with Content Appscript)
 
 Content Service object is a redirect and needs to be handled by the sensor.
 
