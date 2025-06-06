@@ -1,4 +1,7 @@
-Connected to server(script.google.com)
+
+## Code Structure
+
+### Connected to server(script.google.com)
 
 - Send POST 
 - payload: {"command":"appendRow","sheet_name":"Sheet1","values":"demo,1,2,2,3"}
@@ -7,11 +10,11 @@ Connected to server(script.google.com)
 - HTTP/1.1 302 Moved Temporarily
 - Location: https://script.googleusercontent.com/macros/...
 
-Disconnect from server(script.google.com)
+### Disconnect from server(script.google.com)
 
-Handle Response(Redirect): // calls getHttp
+### Handle Response(Redirect): // calls getHttp
 
-Connected to server(script.googleusercontent.com)
+### Connected to server(script.googleusercontent.com)
 
 - Redirect URL:
 - https://script.googleusercontent.com/macros/...
@@ -19,5 +22,5 @@ Connected to server(script.googleusercontent.com)
 - GET response:
 - Success
 
-Disconnect from server(script.googleusercontent.com)
+### Disconnect from server(script.googleusercontent.com)
 
